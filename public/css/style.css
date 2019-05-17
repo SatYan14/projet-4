@@ -1,0 +1,180 @@
+html, body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    background-color: #817B71;
+}
+
+.container
+{
+    padding-top: 50px;
+    
+}
+
+.card
+{
+    margin: 30px 0 30px 0;
+    transition: box-shadow ease-in-out 0.7s;
+    background-color: #1C1D20 !important;
+}
+
+.card:hover
+{
+    box-shadow: 7px 7px 7px 5px rgba(0, 0, 0, 0.3);
+}
+
+
+.parallax
+{
+    width: 100%;
+    height: 80vh;
+    position: relative;
+    background-image: url('../images/wallpaper4.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.shadow
+{
+    width: 100%;
+    height: 80vh;
+    background-color: rgba(0, 0, 0, 0.4);
+    text-align: center;
+    display: table;
+}
+
+#title-shadow
+{
+    color: #ffc107;
+    line-height: 80vh;
+    font-size: 40px;
+    font-family: 'Playfair Display', serif;
+    vertical-align: middle;
+    display: table-cell;
+}
+
+.error-container
+{
+    width: 100%;
+    height: 100vh;
+    background-image: url('../images/404.jpg');
+    background-size: cover;
+    background-position: bottom center;
+    
+}
+
+.shadow-error
+{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: table;
+}
+
+.shadow-error h1
+{
+    text-align: center;
+    color: #ffc107;
+    text-transform: uppercase;
+    display: table-cell;
+    vertical-align: middle;
+    font-family: 'Playfair Display', serif;
+}
+
+.navbar
+{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background-color: #1C1D20 !important;
+}
+
+
+/* Dashboard connexion */
+
+/* ---- reset ---- */
+
+
+  
+  canvas {
+    display: block;
+  }
+  
+  /* ---- particles.js container ---- */
+  
+  #particles-js {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #b61924;
+    background-image: url("");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+  }
+  
+  /* ---- stats.js ---- */
+  
+  .count-particles{
+    background: #000022;
+    position: absolute;
+    top: 48px;
+    left: 0;
+    width: 80px;
+    color: #13E8E9;
+    font-size: .8em;
+    text-align: left;
+    text-indent: 4px;
+    line-height: 14px;
+    padding-bottom: 2px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: bold;
+  }
+  
+  .js-count-particles{
+    font-size: 1.1em;
+  }
+  
+  #stats,
+  .count-particles{
+    -webkit-user-select: none;
+  }
+  
+  #stats{
+    border-radius: 3px 3px 0 0;
+    overflow: hidden;
+  }
+  
+  .count-particles{
+    border-radius: 0 0 3px 3px;
+  }
+
+  /* Fin particles */
+
+.form-connexion
+{
+    width: 30%;
+    height: 550px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    background-color: white;
+    border-radius: 7px;
+}
+
+.form-connexion legend
+{
+    text-align: center;
+}
+
+.form-group
+{
+    padding: 20px 0 20px 0;
+}
+

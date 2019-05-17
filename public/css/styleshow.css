@@ -1,0 +1,94 @@
+body
+{
+    background-color: rgba(0, 0, 0, 0.1);
+    background-image: url('../images/wallpaper4.jpg');
+    background-size: cover;
+    background-position: bottom center;
+    background-attachment: fixed;
+    height: 100vh;
+}
+
+
+
+.wrapper
+{
+    margin: 0px 15% 0px 15%;
+    padding: 50px 0 50px 0;
+    height: auto;
+}
+
+.wrapper h1
+{
+    text-align: center;
+    margin-bottom: 50px;
+    color: #ffc107;
+    font-family: 'Playfair Display', serif;
+    text-transform: uppercase;
+}
+
+.content
+{
+    color: #ffc107;
+    line-height: 2rem;
+    font-size: 18px;
+    text-align: justify;
+    font-family: 'Playfair Display', serif;
+    
+}
+
+.shadow-post
+{
+    background-color: rgba(0, 0, 0, 0.4);
+    width: 100%;
+    height: auto;
+}
+
+.navbar
+{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background-color: #1C1D20 !important;
+}
+
+footer
+{
+    width: 100%;
+    height: 100vh;
+    background-color: #1C1D20;
+}
+
+form legend
+{
+    text-align: center;
+    color: white;
+    padding-top: 70px;
+}
+
+label
+{
+    color: #ffc107;
+}
+
+form
+{
+    margin: 0 auto;
+}
+
+.flex-comments
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+.report-link
+{
+    color: black;
+}
+
+.report-link:hover
+{
+    color: #1C1D20;
+}

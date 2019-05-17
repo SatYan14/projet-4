@@ -1,0 +1,57 @@
+body
+{
+    background-color: #817B71 !important;
+}
+
+.navbar
+{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background-color: #1C1D20 !important;
+}
+
+.comments-action
+{
+    text-align: center;
+    list-style: none;
+    font-size: 22px;
+    margin: 20px 50px 20px 0;
+}
+
+#update
+{
+    text-align: center;
+}
+
+.list-group
+{
+    list-style-type: none;
+}
+
+.modal-dialog
+{
+    width: 80% !important;
+    max-width: 800px !important;
+}
+
+.modal-body
+{
+    height: 400px !important;
+}
+
+
+#content-delete
+{
+    text-align: justify;
+}
+
+#delete
+{
+    text-align: center;
+}
+
+#add-button
+{
+    margin-top: 40px;
+}
